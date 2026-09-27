@@ -2,7 +2,7 @@
 
 A focused Kanban board for small projects.
 
-A small, approachable portfolio project built with HTML, CSS, and modern JavaScript. No dependencies, API keys, build step, or account required.
+A small, approachable portfolio project built with HTML, CSS, and modern JavaScript. No dependencies, API keys, or account required. The ready-to-open HTML is included.
 
 ## Features
 
@@ -11,6 +11,10 @@ A small, approachable portfolio project built with HTML, CSS, and modern JavaScr
 - Search, filter, delete, and undo the most recent deletion.
 - Responsive layouts, labeled forms, visible keyboard focus, and local browser storage.
 - Optional sample data; the app starts empty.
+
+## Quick preview
+
+Download `public/index.html` and open it in a modern browser. The styling and app code are embedded, so this single file works on its own. For reliable browser storage and PWA installation, use the local server below.
 
 ## Run locally
 
@@ -66,3 +70,7 @@ Read the tests alongside `domain.js` to understand the rules before extending th
 ## Development note
 
 Created with AI assistance as a learning and portfolio starter. Review, customize, and understand the code before presenting it in an interview.
+
+## Editing the design or behavior
+
+Edit `public/styles.css`, `public/app.js`, `public/common.js`, or `public/domain.js`, then run `npm run build` to refresh the embedded assets in `public/index.html`. The build uses Node only and preserves the page markup. Run `npm test` after changing behavior.
